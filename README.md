@@ -36,5 +36,27 @@ Este projeto em Go implementa uma solução para consultar informações de um C
 
 ## Exemplo de Saída
 
-### Sucesso (ViaCEP foi mais rápida)
+```
+Buscando CEP: 06230100
+Iniciando busca nas APIs...
+
+--- Resultado (API mais rápida: ViaCEP) ---
+{
+  "cep": "06230-100",
+  "logradouro": "Rua Amador Bueno",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Piratininga",
+  "localidade": "Osasco",
+  "uf": "SP",
+  "estado": "São Paulo",
+  "regiao": "Sudeste",
+  "ibge": "3534401",
+  "gia": "4923",
+  "ddd": "11",
+  "siafi": "6789"
+}
+
+Busca finalizada.
+```
 
